@@ -1,0 +1,3 @@
+function submitMessage() {
+    alert("sent :)");
+}

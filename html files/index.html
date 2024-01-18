@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="/css files/style.css">
+    <script src="/js files/submit.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
-
-<body>
+<body style="background-image: url('/assets/pic.jpeg')">
     <header>
         <nav>
             <ul>
@@ -25,9 +26,16 @@
     <section id="skills">
         <h2>Skills</h2>
         <table>
+            <th>
+                Skill
+            </th>
             <tr>
                 <td>Video editing</td>
+            </tr>
+            <tr>
                 <td>Game dev</td>
+            </tr>
+            <tr>
                 <td>Coding</td>
             </tr>
         </table>
@@ -45,7 +53,7 @@
     <hr>
     <section id="education">
         <h2>Education</h2>
-        bac info
+        <p>bac info</p>
     </section>
     <hr>
     <section id="contact">
@@ -54,7 +62,7 @@
             <h3>Name</h3><input type="text"><br>
             <h3>Email</h3><input type="text"><br>
             <h3>Message</h3><textarea name="" id="" cols="30" rows="10"></textarea>
-            <br><button>submit</button>
+            <br><br><button onclick="submitMessage()">submit</button>
         </form>
     </section>
     <footer>
