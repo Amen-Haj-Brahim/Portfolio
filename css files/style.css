@@ -1,5 +1,6 @@
 table {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
 }
 
 td,
@@ -7,7 +8,10 @@ th {
     border: 1px solid black;
 
 }
-
+hr{
+    margin: 50px;
+    width: 600px;
+}
 p {
     margin: 10px;
     font-size: 20px;
@@ -17,12 +21,15 @@ p {
 h1,
 h2,
 h3 {
+    margin-left: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 button {
     padding: 10px;
     font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -41,11 +48,14 @@ body {
 section,
 footer,
 header {
+    width: 600px;
     background-color: rgba(128, 128, 128, 0.842);
     border-radius: 10px;
+    margin-left: 50px;
 }
 
 input,
 textarea {
+    margin-left: 10px;
     background-color: rgb(226, 223, 223);
 }
