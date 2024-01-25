@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/css files/style.css">
-    <script src="/js files/submit.js"></script>
+    <link rel="stylesheet" href="../css files/style.css">
+    <script src="D:\9raya fr\2\sem2\web tech\portfolio\js files\submit.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
-<body style="background-image: url('/assets/pic.jpeg')">
+<body style="background-image: url(../assets/pic.jpeg)">
     <header>
         <nav>
             <ul>
@@ -19,11 +19,13 @@
             </ul>
         </nav>
     </header>
+    <hr>
     <section id="introduction">
         <h1>Amen Haj Brahim</h1>
         <p>Applied AI student at Pristini and a beginner game dev</p>
     </section>
-    <section id="skills">
+    <hr>
+    <section id="skills" class="test">
         <h2>Skills</h2>
         <table>
             <th>
@@ -48,12 +50,14 @@
             <p>Class attendance system using face recognition with python</p>
             <h3>Rocky jump</h3>
             <p>Infinite side scrolling runner game made with pygame</p>
+            <h3>Bullet hell game</h3>
+            <p>2D Bullet hell game using Unity</p>
         </article>
     </section>
     <hr>
     <section id="education">
-        <h2>Education</h2>
-        <p>bac info</p>
+        <h2 id="test">Education</h2>
+        <p id="test">bac info</p>
     </section>
     <hr>
     <section id="contact">
@@ -62,7 +66,7 @@
             <h3>Name</h3><input type="text"><br>
             <h3>Email</h3><input type="text"><br>
             <h3>Message</h3><textarea name="" id="" cols="30" rows="10"></textarea>
-            <br><br><button onclick="submitMessage()">submit</button>
+            <br><br><button onclick="submitMessage()" class="c1">submit</button>
         </form>
     </section>
     <footer>
