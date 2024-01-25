@@ -4,6 +4,7 @@ table {
     margin-left: 10px;
     color: white;
     text-shadow: 5px 7px 10px black;
+    border-collapse: collapse;
 }
 
 td,
@@ -29,6 +30,7 @@ p {
 h1,
 h2,
 h3 {
+    font-size: 30px;
     text-shadow: 5px 7px 10px black;
     color: white;
     margin-left: 10px;
@@ -36,20 +38,43 @@ h3 {
 }
 
 button {
+    border-radius: 5px;
+    margin-right: 37%;
     padding: 10px;
     font-size: 25px;
-    margin-left: 10px;
     margin-bottom: 10px;
 }
 
 li,
 a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-shadow: 5px 7px 10px black;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #8b8b8b;
+}
+
 body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
     object-fit: fill;
     background-size: auto;
     background-repeat: no-repeat;
@@ -61,26 +86,45 @@ section,
 footer,
 header {
 
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
-    padding: 5px;
+    padding: 10px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 4px rgba(41, 41, 41, 0.466);
     width: 600px;
     background-color: rgba(128, 128, 128, 0.2);
     border-radius: 10px;
 }
-section,header,hr{
-    margin-left: 40%;
+
+section,
+header,
+hr,
+footer {
+    margin-left: 35%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #292b2c;
 }
 
 input,
-textarea,
-button {
-    border-radius: 5px;
+textarea {
+    border-radius: 3px;
     margin-left: 10px;
     background-color: rgba(228, 220, 220, 0.781);
 }
-*{
+
+* {
     text-align: center;
+}
+
+.c1 {
+    margin-left: 37.5%;
 }
