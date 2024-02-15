@@ -8,22 +8,23 @@ body {
 }
 
 header {
-    background-color: rgb(58, 58, 58);
+    max-height: 10%;
     /* Make the header fixed at the top */
     position: fixed;
     /* Ensure the header stays above other elements */
     top: 0;
     /* Set the width to 100% to span the full viewport */
     width: 100%;
+    z-index: 999;
 }
 
-nav ul {
+nav {
     /* Add styles for list-style, margin, padding, and text-align */
     padding: 5%;
     list-style: circle;
 }
 
-nav ul li {
+nav {
     text-align: center;
     display: inline;
     margin-right: 200px;
@@ -36,13 +37,16 @@ nav a {
     text-decoration: dashed;
     transition: margin-right 2s;
 }
-
+.navbar{
+    background-color: silver;
+    margin: 0 auto;
+}
 nav a:hover {
     color: rgb(255, 255, 255);
 }
 
 .content {
-    margin-top: 290px;
+    margin-top: 90px;
 }
 
 #introduction {
@@ -55,12 +59,11 @@ section {
     animation: fadeInUp 1s ease-in-out;
     animation: fadeIn 1s ease-in-out;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px 50px;
+    margin: 40px 50px;
 }
-
 #skills table {
     width: 100%;
     border-collapse: collapse;
@@ -154,13 +157,22 @@ footer {
     /* Change color on hover */
     color: #a09b9b;
 }
-
+.card{
+    margin: 0 auto;
+    float: none;
+}
+.carouselTest img{
+    margin: 0 auto;
+}
 nav a i,
 h1 i,
 button i {
     margin-right: 5px;
 }
 
+h1,h2{
+    text-shadow: rgb(145, 142, 142) 1px 1px 2px;
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;

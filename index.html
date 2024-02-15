@@ -16,18 +16,40 @@
 
 <body>
 
-    <header class="header-background">
-        <nav>
-            <ul>
-                <li><a href="#introduction"><i class="fa fa-home"></i> Introduction</a></li>
-                <li><a href="#skills"><i class="fa fa-code"></i> Skills</a></li>
-                <li><a href="#projects"><i class="fa fa-project-diagram"></i> Projects</a></li>
-                <li><a href="#education"><i class="fa fa-graduation-cap"></i> Education</a></li>
-                <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
-            </ul>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#introduction"><i
+                                class="fa fa-home"></i>Introduction</a>
+                        <a class="nav-link" href="#skills"><i class="fa fa-code"></i> Skills</a>
+                        <a class="nav-link" href="#projects"><i class="fa fa-project-diagram"></i>Projects</a>
+                        <a class="nav-link" href="#education"><i class="fa fa-graduation-cap"></i>Education</a>
+                        <a class="nav-link" href="#contact"><i class="fa fa-envelope"></i>Contact</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <div class="content">
+        <div class="mycard">
+            <div class="card" style="width: 18rem;">
+                <img src="em3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Amen's Card</h5>
+                    <p class="card-text">Hello this is a card test imagine important info written here ok bye</p>
+                    <a href="https://www.youtube.com/watch?v=lPGipwoJiOM&ab_channel=ChrisDeer" target="_blank"
+                        class="btn btn-primary"> le fishe music</a>
+                </div>
+            </div>
+        </div>
         <section id="introduction">
             <div class="container">
                 <h1>Introduction</h1>
@@ -44,35 +66,27 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="card" style="width: 18rem;">
-                <img src="em3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Amen's Card</h5>
-                    <p class="card-text">Hello this is a card test imagine important info written here ok bye</p>
-                    <a href="https://www.youtube.com/watch?v=lPGipwoJiOM&ab_channel=ChrisDeer" target="_blank" class="btn btn-primary"> le fishe music</a>
-                </div>
-            </div>
-        </section>
-        <section>
+        <section class="carouselTest">
             <h1>Amen's Carousel</h1>
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="em1.png" class="d-block w-100" alt="...">
+                        <img src="em1.png" class="d-block w-50" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="em2.jpg" class="d-block w-100" alt="...">
+                        <img src="em2.jpg" class="d-block w-50" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:silver; border-radius: 5px;"></span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"
+                        style="background-color:silver; border-radius: 5px;"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:silver; border-radius: 5px;"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"
+                        style="background-color:silver; border-radius: 5px;"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
