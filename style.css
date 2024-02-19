@@ -37,10 +37,12 @@ nav a {
     text-decoration: dashed;
     transition: margin-right 2s;
 }
-.navbar{
+
+.navbar {
     background-color: silver;
     margin: 0 auto;
 }
+
 nav a:hover {
     color: rgb(255, 255, 255);
 }
@@ -64,6 +66,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 40px 50px;
 }
+
 #skills table {
     width: 100%;
     border-collapse: collapse;
@@ -157,22 +160,27 @@ footer {
     /* Change color on hover */
     color: #a09b9b;
 }
-.card{
+
+.card {
     margin: 0 auto;
     float: none;
 }
-.carouselTest img{
+
+.carouselTest img {
     margin: 0 auto;
 }
+
 nav a i,
 h1 i,
 button i {
     margin-right: 5px;
 }
 
-h1,h2{
+h1,
+h2 {
     text-shadow: rgb(145, 142, 142) 1px 1px 2px;
 }
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
