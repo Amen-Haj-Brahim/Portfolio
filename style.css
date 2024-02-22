@@ -152,13 +152,13 @@ footer {
     display: inline-block;
     font-size: 24px;
     margin: 0 10px;
-    color: #fff;
+    color: #969292;
     transition: color 0.3s ease-in-out;
 }
 
 .icon:hover {
     /* Change color on hover */
-    color: #a09b9b;
+    color: #000000;
 }
 
 .card {
